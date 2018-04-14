@@ -1,4 +1,9 @@
-﻿using System;
+/**
+ * Code by Vy Nghia
+ * Facebook: https://www.facebook.com/nghiadev
+**/
+
+using System;
 using System.IO;
 using System.Net;
 using System.Drawing;
