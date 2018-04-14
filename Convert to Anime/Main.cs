@@ -130,7 +130,7 @@ namespace Convert_to_Anime
                                 //Handling response data
                                 if (HtmlResult.Length > 100)
                                 {
-                                    if (convert.IsAlive == true)
+                                    if (convert.IsAlive)
                                     {
                                         LoadImage(HtmlResult, numOutput);
                                         convertStatus(true);
