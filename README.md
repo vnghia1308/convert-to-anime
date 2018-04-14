@@ -5,5 +5,5 @@ Convert image to anime with Shinkai filter api
 
 # Credits
 * API Source: [@yangbeom](https://github.com/yangbeom)
-* Publish Source:[@BonTheK](https://github.com/yangbeom)
+* Publish Source:[@BonTheK](https://www.facebook.com/nghiadev)
 
