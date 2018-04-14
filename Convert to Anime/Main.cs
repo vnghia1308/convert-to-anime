@@ -116,7 +116,7 @@ namespace Convert_to_Anime
                             {
                                 //Send data to URI
                                 wc.Headers[HttpRequestHeader.ContentType] = "application/x-www-form-urlencoded";
-                                string HtmlResult = wc.UploadString(URI, upload);
+                                string responseResult = wc.UploadString(URI, upload);
 
                                 //Read numOutput value
                                 if (File.Exists(@".\data.ini"))
@@ -137,7 +137,7 @@ namespace Convert_to_Anime
                                 {
                                     if (convert.IsAlive)
                                     {
-                                        LoadImage(HtmlResult, numOutput);
+                                        LoadImage(responseResult, numOutput);
                                         convertStatus(true);
                                         convert.Abort();
                                     }
