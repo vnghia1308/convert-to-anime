@@ -179,21 +179,6 @@ namespace Convert_to_Anime
 
         private void ConvertToAnime_Load(object sender, EventArgs e)
         {
-            bool appStatus;
-            string appVersion = new WebClient().DownloadString("https://photoshopvn.com/api/public/app/anime/version");
-
-            if (version == appVersion)
-                appStatus = true;
-            else
-                appStatus = false;
-
-            if(!appStatus)
-            {
-                MessageBox.Show("Phiên bản đã hết hạn, nếu có cập nhật xin hãy tải phiên bản mới để sử dụng!", "Lỗi khởi động", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                Application.Exit();
-            }
-
-
             if (!File.Exists(@".\data.ini"))
             {
                 writeDataFile(0, @"C:\");
