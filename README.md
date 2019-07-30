@@ -1,5 +1,5 @@
 # convert-to-anime
-Convert image to anime with Shinkai filter api. Project is closed. Get API from http://api.everfilter.me/filters/shinkai?nightscape=1
+API unavailable.
 
 ![Simple image](https://i.imgur.com/Pp3LlIW.jpg)
 
